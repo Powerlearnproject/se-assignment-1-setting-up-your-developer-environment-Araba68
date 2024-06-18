@@ -1,64 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15277084&assignment_repo_type=AssignmentRepo)
-# Dev_Setup
-Setup Development Environment
-
-#Assignment: Setting Up Your Developer Environment
-
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
-
-#Tasks:
-
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-
-2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
-
-4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
-
-5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
-
-6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
-
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
-
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
-
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
-
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
-
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
-
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
-
-
-
-
-
-Q1. Install a Text Editor or Integrated Development Environment (IDE): Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
-VSCODE INSTALLATION GUIDE
+### Q1. Install a Text Editor or Integrated Development Environment (IDE): Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+## VSCODE INSTALLATION GUIDE
 Visual Studio Code (VS Code) is a lightweight but powerful source code editor developed by
 Microsoft. It's designed to be highly customizable and extensible, catering to a wide range of
 programming languages and development workflows.Visual Studio Code has a high productivity code editor which, when combined with programming language services, gives you the power of an IDE and the speed of a text editor.
@@ -73,7 +14,7 @@ g)	Extensions: VS Code's functionality can be extended through a vast ecosystem 
 
 h)	Customization: You can personalize almost every aspect of VS Code to suit your preferences. This includes themes, keyboard shortcuts, settings, and more.
 
-VSCODE SETUP AND CONFIGURATIONS
+## VSCODE SETUP AND CONFIGURATIONS
 Since I am using a windows 10 OS, let me show you how to install and configure the text editor on my machine. The steps are as follows”
 •	First, Download the Vscode installer by visiting their official Visual Studio Code website (https://code.visualstudio.com/) using your web browser. Click on the "Download for Windows" button to download the installer file.
 •	Installer: Once the download is complete, locate the downloaded installer file (usually in your Downloads folder as VSCodeUserSetup-{version}.exe) and double-click on it to run it. It will take a few minutes to run the wizard installer 
@@ -112,10 +53,10 @@ The user setup does not require Administrator privileges to run as the location 
 2. The system setup requires elevation to Administrator privileges to run and will place the installation under the system's Program Files. The in-product update flow will also require elevation, making it less streamlined than the user setup. On the other hand, installing VS Code using the system setup means that it will be available to all users in the system.
 
 And that is how you successfully install vscode on a windows machine. You can now add extensions depending on your needs.
-Q2.  Set Up Version Control System: Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+### Q2.  Set Up Version Control System: Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 First of all let’s define version control system(vcs). Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter. They are especially useful for DevOps teams since they help them to reduce development time and increase successful deployments.
 We have several industry approved vcs’s such as Apache subversion, Mercurial, Perfoce, Git just to mention a few. I am going to show you how to download, install and configure Git as this is the most common used vcs.
-GIT INSTALLATION AND GUIDE
+## GIT INSTALLATION AND GUIDE
 What is Git?
 Git is a distributed version control system that tracks versions of files. It is often used to control source code by programmers collaboratively developing software. Git thinks of its data more like a series of snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a stream of snapshots.
 . Git has three main states that your files can reside in: modified, staged, and committed:
@@ -124,7 +65,7 @@ Git is a distributed version control system that tracks versions of files. It is
 •	Committed means that the data is safely stored in your local database.
 
 
-GIT SETUP
+## GIT SETUP
 
 a)	First, download git for windows on your browser by using the  link:  https://git-scm.com/download/win and the download will start automatically.
 b)	Then follow the installation wizard as depicted on the pictorial representations below
@@ -180,10 +121,10 @@ There are a few commands that are imperative to interacting with Git such as
 	git log – to show all the commits made
 
 That is how you setup and configure git on your windows pc
-Q3. Install Necessary Programming Languages and Runtimes: Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
-PYTHON INSTALLATION
+### Q3. Install Necessary Programming Languages and Runtimes: Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
-PYTHON SETUP
+
+## PYTHON SETUP
 1.	The first step is to download python using  the browser on your pc by typing the following link: https://www.python.org
 2.	Download python’s latest version for windows and follow the steps on the wizard as shown by the diagrams below:
  
@@ -197,7 +138,7 @@ PYTHON SETUP
  
 
 
-Q3. Install Package Managers: If applicable, install package managers like pip (Python).
+## Q3. Install Package Managers: If applicable, install package managers like pip (Python).
 Installing package managers like pip depends on the operating system and whether python is already installed. Below are simple steps on how to install pip (python ) on your machine:
 PIP SETUP
 
@@ -207,7 +148,8 @@ PIP SETUP
 
  
 3.Verify python installation by opening CMD and type : python --version
-Q4. Configure a Database (MySQL): Download and install MySQL database.
+
+### Q4. Configure a Database (MySQL): Download and install MySQL database.
 Mysql is a platform that lets you create databases for your project. A complete mysql set up consists of a mysql client where the user interacts with the mysql server which serves as the key component in storing, retrieving and managing data. The following steps will guide you on how to install and configure  mysql on your pc:
 •	The first step is to download Mysql server using the link: https://dev.msql.com/downloads.installer/
 •	After download is complete, begin the installation process by locating where the download file is and double click on it
@@ -252,10 +194,11 @@ Mysql is a platform that lets you create databases for your project. A complete 
 Now that we are done with the installation wizard , the next step is to initiate Mysql server for the first time in your pc. To do that, run CMD as an administrator to and type”
 “C:\Program Files \MySQL \MySQL Server 8.0 \bin \mysqld” –console
 Once this command is complete we now have Mysql server running. So the next step is to install Mysql workbench from Microsoft. This is the environment a user interacts it when querrying requests from the Mysql server.
-Q5. Set Up Development Environments and Virtualization (Optional): Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+### Q5. Set Up Development Environments and Virtualization (Optional): Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
-Q6. Explore Extensions and Plugins: Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-IDE EXTENSIONS
+### Q6. Explore Extensions and Plugins: Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+
+## IDE EXTENSIONS
 
 You can install various extensions in your vscode depending on your needs. For you to download and install extensions;
 •	Open vscode
@@ -263,4 +206,3 @@ You can install various extensions in your vscode depending on your needs. For y
 •	Click on the icon and once open search on the particular extension you need e.g dart
 
 Document Your Setup: Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.
-
